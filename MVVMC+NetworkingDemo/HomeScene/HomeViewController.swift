@@ -21,7 +21,6 @@ class HomeViewController: UIViewController , Coordinated {
         super.viewDidLoad()
     }
 
-
     @IBAction func didTapUsersList(_ sender: Any) {
         viewModel?.didSelectGoToUsersList()
     }
@@ -38,7 +37,5 @@ class HomeViewController: UIViewController , Coordinated {
 
             }
         })
-
     }
-
 }
